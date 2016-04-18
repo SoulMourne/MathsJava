@@ -5,6 +5,7 @@
  */
 package count;
 
+import maths.count.Factorial;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
