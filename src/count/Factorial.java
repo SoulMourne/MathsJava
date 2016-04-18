@@ -14,12 +14,13 @@ public class Factorial {
     /**
      * Calculate the factorial of a number
      * @param n the number we want to know the factorial
+     * @param m the number of times we want to calculte the factorial
      * @return the factorial of the number
      */
-    public static double factorial(double n)
+    public static double factorial(double n, int m)
     {
-        double res = 1;
-        for (int i = 1; i<= n; i++)
+        double res = n;
+        for (int i = 1; i<= m; i++)
         {
             res *= i;
         }
