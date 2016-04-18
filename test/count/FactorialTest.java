@@ -22,12 +22,47 @@ public class FactorialTest {
      * Test of factorial method, of class Factorial.
      */
     @Test
-    public void testFactorial() {
-        System.out.println("factorial of 1. 4 times");
+    public void testFactorial1() {
+        System.out.println("factorial of 1");
+        double n = 0;
+        double expResult = 1;
+        double result = Factorial.factorial(n);
+        assertEquals(expResult, result, 0.0);
+    }
+    
+        /**
+     * Test of factorial method, of class Factorial.
+     */
+    @Test
+    public void testFactorial2() {
+        System.out.println("factorial of 1");
         double n = 1;
-        int m = 4;
-        double expResult = 24;
-        double result = Factorial.factorial(n,m);
+        double expResult = 1;
+        double result = Factorial.factorial(n);
+        assertEquals(expResult, result, 0.0);
+    }
+    
+        /**
+     * Test of factorial method, of class Factorial.
+     */
+    @Test
+    public void testFactorial3() {
+        System.out.println("factorial of 1");
+        double n = 5;
+        double expResult = 120;
+        double result = Factorial.factorial(n);
+        assertEquals(expResult, result, 0.0);
+    }
+    
+        /**
+     * Test of factorial method, of class Factorial.
+     */
+    @Test
+    public void testFactorial4() {
+        System.out.println("factorial of 1");
+        double n = 9;
+        double expResult = 362880;
+        double result = Factorial.factorial(n);
         assertEquals(expResult, result, 0.0);
     }
     
