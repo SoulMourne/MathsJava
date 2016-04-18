@@ -22,7 +22,7 @@ public class FactorialTest {
      */
     @Test
     public void testFactorial() {
-        System.out.println("factorial");
+        System.out.println("factorial of 1. 4 times");
         double n = 1;
         int m = 4;
         double expResult = 24;
