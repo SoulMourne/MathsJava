@@ -23,7 +23,7 @@ public class FactorialTest {
      */
     @Test
     public void testFactorial1() {
-        System.out.println("factorial of 1");
+        System.out.println("factorial of 0");
         double n = 0;
         double expResult = 1;
         double result = Factorial.factorial(n);
@@ -47,7 +47,7 @@ public class FactorialTest {
      */
     @Test
     public void testFactorial3() {
-        System.out.println("factorial of 1");
+        System.out.println("factorial of 5");
         double n = 5;
         double expResult = 120;
         double result = Factorial.factorial(n);
@@ -59,7 +59,7 @@ public class FactorialTest {
      */
     @Test
     public void testFactorial4() {
-        System.out.println("factorial of 1");
+        System.out.println("factorial of 9");
         double n = 9;
         double expResult = 362880;
         double result = Factorial.factorial(n);
