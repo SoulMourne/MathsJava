@@ -23,33 +23,4 @@ public class Stats {
         res = res/values.length;
         return res;
     }
-    
-    /**
-     * Calculates the average number of a list
-     * @param values the list containing the values
-     * @return the average number
-     */
-    public static double avg(long [] values)
-    {
-        long res = 0;
-        for (long value : values)
-            res += value;
-        res = res/values.length;
-        return (double)res;
-    }
-    
-        
-    /**
-     * Calculates the average number of a list
-     * @param values the list containing the values
-     * @return the average number
-     */
-    public static double avg(int [] values)
-    {
-        double res = 0;
-        for (double value : values)
-            res += value;
-        res = res/values.length;
-        return res;
-    }
 }
